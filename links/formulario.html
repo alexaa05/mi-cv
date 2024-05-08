@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+<h2>Formulario</h2>
+
+<form action="/submit-formulario" method="post">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="edad">edad:</label><br>
+    <input id="edad" name="edad" rows="3" required></input><br><br>
+
+    femenino<input type="radio"name= "Genero" />
+    Masculino<input type="radio"name= "Genero" />
+
+    <br/><br/>
+
+    <select name="selecion">
+    <option values="0">Departamento</option>
+    <option values="1">Bogota</option>
+    <option values="2">Villeta</option>
+    </select>
+
+    <br/><br/>
+
+    <input type="submit" value="Enviar">
+
+</form>
+
+</body>
+</html>

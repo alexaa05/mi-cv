@@ -1,0 +1,55 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background: linear-gradient(to right, rgb(161, 255, 206), rgb(250, 255, 209));
+}
+
+header{
+    width: 100%;
+    margin: 10px auto;
+    border: 1px solid black;
+    text-align: center;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+
+
+img{
+    max-width: 200px;
+    border-radius: 50%; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.seccion-doble {
+    display: flex;
+  }
+  
+  .columna-izquierda {
+    flex-direction: column;
+    flex-basis: 30%; /* Ajusta el ancho */
+    background-color: #dfd9d9;
+    padding: 20px;
+    }
+  
+  .columna-derecha {
+    flex-direction: column;
+    flex-basis: 60%; 
+    background-color: #ffffff;
+    padding: 20px;
+  }
+
+
+
+
